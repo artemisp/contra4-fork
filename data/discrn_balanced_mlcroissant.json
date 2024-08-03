@@ -1,0 +1,74 @@
+{
+    "@type": "sc:Dataset",
+    "name": "DisCRn",
+    "description": "A Dataset for Discriminayoty Cross-Modal Reasoning",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "url": "TBD",
+    "distribution": [
+        {
+            "@type": "cr:FileObject",
+            "@id": "discrn_balanced.json",
+            "name": "discrn_balanced.json",
+            "contentUrl": "data/discrn_balanced.json",
+            "encodingFormat": "text/json",
+            "sha256": "ae0444ed6d6929757477fd59496979088832acb91abe42facb1feeb73e0b886a"
+        }
+    ],
+    "recordSet": [
+        {
+            "@type": "cr:RecordSet",
+            "name": "Example Entries",
+            "description": "Each record represents a cross-modal reasoning question with answer and multimodal options.",
+            "field": [
+                {
+                    "@type": "cr:Field",
+                    "name": "id",
+                    "description": "Data related to id.",
+                    "dataType": "sc:Text"
+                },
+                {
+                    "@type": "cr:Field",
+                    "name": "selection_type",
+                    "description": "Data related to selection_type.",
+                    "dataType": "sc:Text"
+                },
+                {
+                    "@type": "cr:Field",
+                    "name": "q_type",
+                    "description": "Data related to q_type.",
+                    "dataType": "sc:Text"
+                },
+                {
+                    "@type": "cr:Field",
+                    "name": "examples",
+                    "description": "Data related to examples.",
+                    "dataType": "sc:ItemList"
+                },
+                {
+                    "@type": "cr:Field",
+                    "name": "modalities",
+                    "description": "Data related to modalities.",
+                    "dataType": "sc:ItemList"
+                },
+                {
+                    "@type": "cr:Field",
+                    "name": "questions",
+                    "description": "Data related to questions.",
+                    "dataType": "sc:ItemList"
+                },
+                {
+                    "@type": "cr:Field",
+                    "name": "answers",
+                    "description": "Data related to answers.",
+                    "dataType": "sc:ItemList"
+                },
+                {
+                    "@type": "cr:Field",
+                    "name": "category",
+                    "description": "Data related to category.",
+                    "dataType": "sc:Text"
+                }
+            ]
+        }
+    ]
+}
