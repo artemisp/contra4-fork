@@ -1,0 +1,8 @@
+pandas
+tqdm
+vllm
+sentence-transformers
+transformers
+objaverse
+datasets
+flashinfer-python -i https://flashinfer.ai/whl/cu124/torch2.6/
